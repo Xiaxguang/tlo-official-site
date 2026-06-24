@@ -1,9 +1,1 @@
-const menuButton = document.querySelector("[data-menu-button]");
-const navLinks = document.querySelector("[data-nav-links]");
-
-if (menuButton && navLinks) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("is-open");
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-  });
-}
+const b=document.querySelector('[data-menu-button]');const n=document.querySelector('[data-nav-links]');if(b&&n){b.addEventListener('click',()=>{const o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',String(o));});}
